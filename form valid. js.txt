@@ -1,0 +1,83 @@
+function validateForm() {
+    var isValid = true;
+
+    
+    var errorElements = document.querySelectorAll('.error');
+    errorElements.forEach(function(element) {
+        element.textContent = '';
+    });
+
+    //  FName
+    var fname = document.getElementById('fname').value.trim();
+    if (fname === '') {
+        document.getElementById('nameError').textContent = 'Please enter your First Name';
+        isValid = false;
+    }
+
+    //  LName
+    var lname = document.getElementById('lname').value.trim();
+    if (lname === '') {
+        document.getElementById('lnameError').textContent = 'Please enter your Last Name';
+        isValid = false;
+    }
+
+    //  Ph.Number
+    var phone = document.getElementById('phone').value.trim();
+    if (phone === '') {
+        document.getElementById('phError').textContent = 'Please enter your registered Phone Number';
+        isValid = false;
+    }
+
+    //  E-mail
+    var email = document.getElementById('email').value.trim();
+    if (email === '') {
+        document.getElementById('emailError').textContent = 'Please enter a valid Email';
+        isValid = false;
+    }
+
+    //  Password
+    var password = document.getElementById('password').value.trim();
+    if (password === '') {
+        document.getElementById('passError').textContent = 'Please enter your min. 8-digit Password';
+        isValid = false;
+    }
+
+    //  Age
+    var age = document.getElementById('age').value.trim();
+    if (age === '') {
+        document.getElementById('ageError').textContent = 'Please enter your Age';
+        isValid = false;
+    }
+
+    //  Address
+    var address = document.getElementById('address').value.trim();
+    if (address === '') {
+        document.getElementById('addError').textContent = 'Please enter your Address';
+        isValid = false;
+    }
+
+    //  Gender
+    var gender = document.querySelector('input[name="gender"]:checked');
+    if (!gender) {
+        document.getElementById('genderError').textContent = 'Please select your Gender';
+        isValid = false;
+    }
+
+
+    //  Place
+    var district = document.getElementById('district').value;
+    if (district === '') {
+        document.getElementById('districtError').textContent = 'Please select your Place';
+        isValid = false;
+    }
+
+
+    // Declaration
+    var declaration=document.getElementById('input[name="declaration"]:checked');
+    if(!declaration){
+        document.getElementById('declaration').textContent = 'Declaration is must';
+        isValid = false;
+    }
+
+    return isValid;
+}

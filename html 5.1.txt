@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    <main>
+        <div class="Mainhead"><br>
+           
+            <div class="Sechead">
+             <h1>INDIA</h1>
+            </div>
+
+            <div class="Flag">
+                <img src="Flag-India.jpg" alt="indian Flag" height="150" width="250px">
+            </div> 
+
+        </div>
+
+        <div class="Content">
+            <h2>STATES IN INDIA</h2>
+        </div>
+
+           <div class="intro">
+               <p style="font-family: Arial, Helvetica, sans-serif;">There are 29 states and 8 Union territories in the country. Union Territories are administered by the President through an Administrator. Some of them are given here.</p>
+           </div>
+
+
+           <div class="names">
+              <h2>KERALA</h2>
+           </div>
+           <div class="def">
+              <p style="font-family: Arial, Helvetica, sans-serif;">
+                Kerala, often dubbed "God's Own Country," is a captivating region nestled in the southwestern part of India, renowned for its lush green landscapes, serene backwaters, and rich cultural heritage. Blessed with a tropical climate, Kerala boasts a diverse ecosystem that encompasses pristine beaches along the Arabian Sea, verdant hill stations adorned with tea plantations, and dense forests teeming with wildlife. The backwaters, a network of interconnected lakes, rivers, and canals, offer a tranquil retreat, where traditional houseboats gently glide through the calm waters, offering glimpses into the local way of life. Kerala's cultural tapestry is equally vibrant, with classical dance forms like Kathakali and Mohiniyattam, colorful festivals such as Onam and Thrissur Pooram, and a delectable cuisine that tantalizes the taste buds with its array of flavors and spices. With its blend of natural beauty, cultural richness, and warm hospitality, Kerala captivates visitors and leaves an indelible mark on their hearts.
+              </p><br>
+              <p><b><a href="https://en.wikipedia.org/wiki/Kerala" target="_blank" >Click to know more</a></b></p>
+               <div class="img">
+                <img src="kerala.jpg">
+               </div>
+
+               <div class="grid">
+                <div class="grid-item">14 Districts</div>
+                <div class="grid-item">Language: Malayalam</div>
+                <div class="grid-item">Capital: Trivandrum</div>
+               </div>
+           </div><hr><hr>
+
+
+           <div class="names">
+            <h2>Kashmir</h2>
+         </div>
+         <div class="def">
+             <p style="font-family: Arial, Helvetica, sans-serif;">
+                Kashmir, often referred to as "Paradise on Earth," is a mesmerizing region nestled in the northernmost part of India, bordered by the Himalayas and Pir Panjal range. Renowned for its breathtaking natural beauty, Kashmir is adorned with picturesque landscapes that include snow-capped mountains, lush meadows, serene lakes, and verdant valleys. The crown jewel of Kashmir is undoubtedly Dal Lake, where intricately decorated houseboats dot the tranquil waters, offering a unique and unforgettable accommodation experience. Beyond its natural splendor, Kashmir boasts a rich cultural heritage, with a blend of Kashmiri, Indian, and Central Asian influences evident in its art, cuisine, and architecture. Visitors can explore ancient Mughal gardens, visit historical sites such as Shankaracharya Temple and Jama Masjid, and indulge in the region's famed culinary delights, including aromatic saffron-infused dishes and traditional Wazwan cuisine. Despite its political complexities, Kashmir continues to enchant travelers with its unparalleled beauty and warm hospitality, making it a destination that lingers in the memory long after departure.
+              </p><br>
+              <p><b><a href="https://en.wikipedia.org/wiki/Kashmir" target="_blank">Click to know more</a></b></p>
+             <div class="img">
+               <img src="kashmir.avif" style="width: 500px; height: 300px;">
+             </div>
+
+             <div class="grid">
+                <div class="grid-item">20 Districts</div>
+                <div class="grid-item">Language: Kashmiri</div>
+                <div class="grid-item">Capital: Srinagar</div>
+               </div>
+         </div><hr><hr>
+
+
+         <div class="names">
+            <h2>goa</h2>
+         </div>
+         <div class="def">
+            <p style="font-family: Arial, Helvetica, sans-serif;">
+                Goa, a coastal paradise nestled in the southwestern part of India, is renowned for its sun-kissed beaches, vibrant culture, and colonial heritage. With its palm-fringed shores stretching along the Arabian Sea, Goa beckons travelers with its laid-back atmosphere and diverse experiences. The state's Portuguese legacy is palpable in its architecture, with colorful colonial buildings juxtaposed against ancient Hindu temples and bustling markets. Goa's beaches are the heart of its allure, offering everything from bustling stretches dotted with beach shacks serving fresh seafood and chilled cocktails to secluded coves where one can unwind in tranquility. Beyond the beaches, Goa's hinterland reveals lush green landscapes dotted with spice plantations, cascading waterfalls, and quaint villages steeped in tradition. The region's cultural calendar is filled with vibrant festivals, from the colorful Carnival to the spiritual celebration of Shigmo, showcasing the eclectic mix of influences that define Goan identity. Whether it's exploring historic churches, indulging in water sports, or simply lounging on the sand, Goa captivates visitors with its unique blend of natural beauty, cultural richness, and relaxed vibe.
+            </p><br>
+            <p><b><a href="https://en.wikipedia.org/wiki/Goa" target="_blank">Click to know more</a></b></p>
+             <div class="img">
+              <img src="goa.jpg" style="width: 500px; height: 300px;">
+             </div>
+
+             <div class="grid">
+                <div class="grid-item">12 Districts</div>
+                <div class="grid-item">Language: Konkani</div>
+                <div class="grid-item">Capital: Panaji</div>
+               </div>
+         </div><hr><hr>
+
+
+         <div class="flex-c">
+            <h3>To Know More About India</h3>
+            <div><a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi"></a> Father Of Nation</div>
+            <div>National Anthem</div>
+            <div>National Animal</div>
+         </div>
+
+                  
+    </main>
+    
+</body>
+</html>

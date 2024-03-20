@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Application Form</title>
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+    <form>
+        <label>First Name</label><br>
+        <input type="text"><br>
+
+        <label>Last Name</label><br>
+        <input type="text"><br>
+
+        <lebel>Email</lebel><br>
+        <input type="email"><br>
+
+        <lebel>Password</lebel><br>
+        <input type="password"><br>
+
+        <lebel>Phone</lebel><br>
+        <input type="text"><br>
+
+        <lebel>Date of Birth</lebel><br>
+        <input type="date"><br>
+
+        <lebel>Address</lebel><br>
+        <input type="text"><br>
+
+        <lebel>Age</lebel><br>
+        <input type="number"><br>
+
+
+        <lebel>Gender</lebel><br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+
+        <label>Qualifications:</label>
+        <select name="Qualifications" id="Qualifications" required>
+        <option value="">None</option>
+        <option value="BCA">BCA</option>
+        <option value="MCA">MCA</option>
+        <option value="BTech">BTech</option>
+        <option value="Diploma">Diploma</option>
+        </select><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" id="skills" name="skills" value="Skills">
+        <label for="C"> C</label><br>
+        <input type="checkbox" id="C" name="C" value="C">
+        <label for="C++"> C++</label><br>
+        <input type="checkbox" id="C" name="C" value="C">
+        <label for="Java"> Java</label><br>
+        <input type="checkbox" id="C" name="C" value="C">
+        <label for="Python"> Python</label><br>
+        
+        <input type="submit">
+        
+    </form>
+</body>
+</html>

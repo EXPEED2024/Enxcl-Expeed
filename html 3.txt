@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Webpage</title>
+</head>
+<body>
+
+  <h1>MY SAMPLE WEBPAGE</h1>
+  <div>
+    <nav>
+        <ul>
+          <li><a href="#ai">About AI</a></li>
+          <li><a href="#ff">Personal Details</a></li>
+          <li><a href="#bw">Backwaters</a></li>
+          <li><a href="#st">Students Details</a></li>
+          <li><a href="#kk">Kathakali</a></li>
+          <li><a href="#pl">Programming Languages</a></li>
+        </ul>
+    </nav>
+  </div>
+  
+  <h2 id="ai">What Is AI?</h2>
+  <p>Artificial Intelligence (AI) is a rapidly evolving field at the intersection of 
+    computer science, mathematics, and cognitive psychology, aimed at creating systems 
+    capable of performing tasks that typically require human intelligence. These tasks 
+    encompass a broad range of activities, including problem-solving, decision-making, 
+    natural language understanding, and perception. AI systems learn from data, 
+    enabling them to improve their performance over time through techniques such as 
+    machine learning and deep learning. As AI technologies continue to advance, they 
+    are increasingly integrated into various aspects of our daily lives, revolutionizing
+    industries like healthcare, finance, transportation, and entertainment. However, 
+    along with its promise, AI also raises ethical and societal concerns, prompting 
+    discussions about transparency, accountability, and the impact of automation on the
+    workforce. Despite these challenges, AI holds the potential to drive significant 
+    innovation and shape the future of society in profound ways.
+ </p>
+
+   <a href="https://www.technologyreview.com/2024/01/04/1086046/whats-next-for-ai-in-2024/">Click here to know more.</a><hr><hr>
+
+    <h3 id="pd">PERSONAL DETAILS</h3>
+      <form action="/submit" method="post">
+       <label for="name">Name:</label><br>
+       <input type="text" id="name" name="name" required><br><br>
+            
+       <label for="email">Email:</label><br>
+       <input type="email" id="email" name="email" required><br><br>
+
+       <label for="password">Password:</label><br>
+       <input type="password" id="password" name="password" required><br><br>
+            
+       <input type="submit" value="Submit">
+      </form><hr><hr>
+
+        <h3 id="ff">Favourite Fruits</h3>
+           <ol>Apple</ol>
+           <ol>Orange</ol>
+           <ol>Strawberry</ol>
+           <ol>Mango</ol>
+           <ol>Grapes</ol><hr><hr>
+
+           <h3 id="bw">Kerala Backwaters</h3>
+           <img src="india-asia-forest-river-wallpaper-preview.jpg.jpg" alt="KERALA"><hr><hr>
+
+    
+        <h3 id="st">Student's Table</h3>
+           <table border="4">
+            <thead>Personal Details
+              <th>Sl.No:</th>
+              <th>Name</th>
+              <th>Roll.No</th>
+              <th>Place</th>
+              <th>Phone</th>
+            </tbody>
+              <tr>
+                <td>1</td>
+                <td>ARUN</td>
+                <td>1</td>
+                <td>Kollam</td>
+                <td>8746921305</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>MANU</td>
+                <td>12</td>
+                <td>Idukki</td>
+                <td>4125978563</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>ANAND</td>
+                <td>2</td>
+                <td>Kottayam</td>
+                <td>9685301254</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>ANJU</td>
+                <td>8</td>
+                <td>Pathanamthitta</td>
+                <td>9968541235</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>RAHUL</td>
+                <td>20</td>
+                <td>Kollam</td>
+                <td>871200135</td>
+              </tr>
+           </table><hr><hr>
+
+
+           <h3 id="kk">Kathakali</h3>
+           <video width="320" height="240" controls>
+            <source src="Kathakali.mp3.mp4" type="video/mp4">
+           </video><hr><hr>
+
+           
+           <h3 id="pl">Programming language</h3>
+           <label for="Language"> Choose a Language:
+            <select name="Language" id="Language">
+              <option value="HTML">HTML</option>
+              <option value="Java">Java</option>
+              <option value="C,C++">C,C++</option>
+              <option value="Python">Python</option>
+            </select>
+           </label><hr><hr>
+
+
+            <footer>
+                  <p>Created by Sachu, 2024</p>
+            </footer>
+
+</body>
+</html>

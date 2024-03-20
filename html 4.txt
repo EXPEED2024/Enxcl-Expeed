@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enxcl Site</title>
+    <link rel="stylesheet" href="encxl.css">
+</head>
+<body>
+    <div>
+      <img src="enxcl-new-logo.png" alt="enxcllogo" width="200" height="70" style="position: absolute; left: 200px ;"><br>
+    </div>
+    <nav>
+        <a href="cu">Contact Us</a>
+        <a href="re">Resources</a>
+        <a href="au">About Us</a>
+        <a href="se">Services</a>
+    
+        
+    </div>
+      </div>
+
+    <div>
+    <img src="enxcl cover.png" alt="enxclcover" width="1500" style="position: absolute; top: 120px; left: 10px;"><br><br>
+    </div>
+
+    <div>
+        <p id="intro" font-size: larger; text-align: center;">
+            <b>enxcl Business Solutions Private Limited is a consulting and professional up-skilling firm created with a vision to enhance the excellence of business organizations. enxcl relentlessly facilitates professionals to improve their existing talents and skills. enxcl is a catalyst for business as well as the professional growth of our clientele. We bring transformative changes to businesses leveraging our rich technical, process, and management expertise in major industry segments at a global scale, channelizing an organization’s growth.
+
+            Our vastly experienced team has performed multiple senior roles in multinational organizations across the globe. We leverage this experience in delivering high-end consulting from vibrant start-ups to leading multinational corporates. Our philosophy is simple – enhancing the excellence of organizations, professionals and IT aspirants. The deep understanding of the industry, coupled with a world-class curriculum, enables enxcl to impart innovative, insightful, and industry-relevant training programs.
+            
+            We believe that every organization we work with is our partner in this journey of excellence. The relationships we forge are long term and a partnership once formed, is a partnership for life. Our repeat engagements with our partners stand testimony to this. We are happy to invite you to be part of our journey.</b>
+        </p>
+    </div>
+
+    <div>
+        <h1 id="num" >Advisory Services</h1>
+    </div>
+
+    <div>
+        <p id="intro1" style="font-size: larger;">
+           <b> Led by a team with rich industry experience, enxcl’s Advisory Services delivers significant value to clients’ businesses by optimizing delivery, management, service, and process excellence. Powered by enxcl’s proprietary e-ASTO (Assess-Strategize-Transform-Optimize) framework, our approach includes the industry best practices from Lean, Agile, Six Sigma, Scaled Agile, Disciplined Agile, and Organization Change Management. enxcl is also deeply focused on providing a sustainable ecosystem, that will be rich in services ranging from consulting in business strategy and leadership to auxiliary services like Project Management as a Service, PMO as a Service, QA as a Service, Implementation as a Service, Service Management as a Service, Product Information Development (PID) as a Service, Resource Augmentation
+           </b>
+        </p>
+    </div>
+
+    <div>
+        <h1 id="num">Skill Enhancement</h1>
+    </div>
+         <p id="intro2" style="font-size: larger;">
+           <b> enxcl’s deep understanding of the industry enables us to impart innovative, insightful, and industry-relevant training programs to corporates, professionals, and IT career aspirants. For corporates, we provide customized leadership and management trainings as per the vision of the client organization. We start with assessing the current state and with clarity of the future state as per the roles held. Whether the roles handled may be in delivery leadership, customer handling, risk management, product management, service management, or implementation management, we are equipped to assess them and identify the gaps. Further, we deliver customized and tailored skill enhancement programs. Being one of the Premier Authorized Training Partners of Project Management Institute (PMI) globally, we deliver Project Management and Agile trainings through sought-after industry experts having many decades of experience.
+
+            enxcl is also closely connected with academia and leverages our connection with the industry to understand and bridge the gap between academia and industry. We have designed training programs that address this very issue. We offer fresh graduates job-oriented comprehensive courses with live projects and placement support and prepare them for global certifications. We also collaborate with leading colleges across the state in delivering customized skill enhancement programs that are again industry specific.
+            
+            Our connection with both industry and the colleges enables us to work with both in offering multiple models for delivering the right resource with the right skill for the right job. Under the Train-To-Hire Model, we understand our partner companies’ technical requirements and select the right candidates who are then trained on them. The company can later assess these candidates and hire them for their needs. Under the Train-Hire-Deploy program, companies select suitable candidates and partner with us to deliver customized training programs.
+           </b>
+        </p>
+
+    
+        <footer style="background-color: black;" >
+            <div class="footer">
+                <img src="enxcl-recreation-logo123-without-tag.png" style="width: 150px; height: 150px;"><br>
+                
+            </div>
+            
+          </footer>
+       
+</body>
+</html>

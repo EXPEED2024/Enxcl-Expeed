@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="formval.js"></script>
+</head>
+<body>
+    
+      
+    <form action="" method="post" id="myForm" onsubmit="return validateForm()">
+        <div>
+           <center> <h2 style="background-color: black; color: white;"><u>FORM VALIDATION</u></h2></center>
+        </div>
+
+        <label for="fname"><u>First Name:</u></label><br>
+        <input type="text" id="fname" name="fname">
+        <span id="nameError" class="error"></span><br>
+        <hr>
+
+        <label for="lname"><u>Last Name:</u></label><br>
+        <input type="text" id="lname" name="lname">
+        <span id="lnameError" class="error"></span><br>
+        <hr>
+
+        <label for="phone"><u>Phone number:</u></label><br>
+        <input type="text" id="phone" name="phone">
+        <span id="phError" class="error"></span><br>
+        <hr>
+
+        <label for="age"><u>Age:</u></label><br>
+        <input type="number" id="age" name="age">
+        <span id="ageError" class="error"></span><br>
+        <hr>
+
+        <label for="email"><u>Email:</u></label><br>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span><br>
+        <hr>
+
+        <label for="password"><u>Password:</u></label><br>
+        <input type="password" id="password" name="password">
+        <span id="passError" class="error"></span><br>
+        <hr>
+    
+        <label for="address"><u>Address:</u></label><br>
+        <textarea name="address" id="address" cols="50" rows="5"></textarea>
+        <span id="addError" class="error"></span><br>
+        <hr>
+
+        <label for="gender"><u>Gender:</u></label><br>
+        <input type="radio" id="male" name="gender">Male
+        <input type="radio" id="female" name="gender">Female
+        <span id="genderError" class="error"></span><br>
+        <hr>
+
+        <label for="district"><u>District:</u></label><br>
+        <select id="district" name="district">
+            <option value="">Select</option>
+            <option value="1">Thiruvananthapuram</option>
+            <option value="2">Kollam</option>
+            <option value="3">Alappuzha</option>
+            <option value="4">Pathanamthitta</option>
+            <option value="5">Kottayam</option>
+            <option value="6">Idukki</option>
+            <option value="7">Ernakulam</option>
+            <option value="8">Thrissur</option>
+            <option value="9">Palakkad</option>
+            <option value="10">Malappuram</option>
+            <option value="11">Kozhikode</option>
+            <option value="12">Wayanad</option>
+            <option value="13">Kannur</option>
+            <option value="14">Kasaragod</option>
+        </select>
+        <span id="districtError" class="error"></span><br><br>
+        <hr>
+
+        <label for="declaration"></label>
+        <input type="checkbox" name="checkbox"> All the informations are correct.
+        <span id="declaration" class="error"></span><br><br>
+
+       <center> <input type="submit" value="Submit" id="btn"></center>
+    </form>
+</body>
+</html>

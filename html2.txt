@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Application Form</title>
+</head>
+<body>
+
+
+    <audio controls autoplay muted>
+        <source src="/op.mp3" type="audio/mp3">
+        </audio>
+
+    <h1>KERALA</h1>
+    <img src="india-asia-forest-river-wallpaper-preview.jpg.jpg" alt="KERALA"><br><br>
+
+    <h2>Glimpse of Kerala</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R83BlU5nnbs?si=IcirVfKru-X25Ik9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+
+    <h2>Kathakali</h2>
+    <video width="320" height="240" controls autoplay> <source src="Kathakali.mp4" type="video/mp4">
+
+
+</body>
+</html>
